@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "name": "Copy GIF(Experimental)",
+  "manifest_version": 2,
+  "description": "The extension adds a menu item so that you can try to copy the GIF image as HTML format, it does not always work.",
+  "icons": {
+    "16": "assets/images/icon-16.png",
+    "48": "assets/images/icon-48.png",
+    "128": "assets/images/icon-128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "contextMenus",
+    "tabs",
+    "<all_urls>"
+  ]
+}
