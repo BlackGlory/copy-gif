@@ -1,6 +1,6 @@
-# copy-gif [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cehkcdgmdkpbheocenmlclejafodogfk.svg?maxAge=86400)](https://chrome.google.com/webstore/detail/cehkcdgmdkpbheocenmlclejafodogf) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackGlory/copy-gif/master/LICENSE)
+# copy-gif [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cehkcdgmdkpbheocenmlclejafodogfk.svg?maxAge=86400)](https://chrome.google.com/webstore/detail/cehkcdgmdkpbheocenmlclejafodogfk) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackGlory/copy-gif/master/LICENSE)
 
-[![copy-gif](https://raw.githubusercontent.com/BlackGlory/copy-gif/master/src/assets/images/icon-128.png)](https://chrome.google.com/webstore/detail/cehkcdgmdkpbheocenmlclejafodogf)
+[![copy-gif](https://raw.githubusercontent.com/BlackGlory/copy-gif/master/src/assets/images/icon-128.png)](https://chrome.google.com/webstore/detail/cehkcdgmdkpbheocenmlclejafodogfk)
 
 The extension adds a menu item so that you can try to copy the GIF image as HTML format, it does not always work.
 
