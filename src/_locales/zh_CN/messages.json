@@ -3,7 +3,7 @@
     "message": "复制 GIF (实验性)"
   }
 , "extensionDescription": {
-    "message": "该扩展添加了一个菜单项, 以便您可以尝试将GIF图像作为HTML格式进行复制, 粘贴是否有效取决于被粘贴的应用程序是否支持HTML格式."
+    "message": "该扩展添加了一个菜单项, 以便您可以尝试将GIF图像作为HTML格式进行复制."
   }
 , "titleCopyGIF": {
     "message": "复制 GIF"
