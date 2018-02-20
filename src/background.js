@@ -1,7 +1,9 @@
 'use strict'
 
+const COPY_GIF = 'COPY_GIF'
+
 function setClipboard(imageUrl) {
-  var container = document.createElement('span')
+  const container = document.createElement('span')
   container.innerHTML = '<img src="' + imageUrl + '">'
   document.body.appendChild(container)
   container.focus()
@@ -10,16 +12,16 @@ function setClipboard(imageUrl) {
   document.body.removeChild(container)
 }
 
-chrome.runtime.onInstalled.addListener(function(details) {
+chrome.runtime.onInstalled.addListener(details => {
   chrome.contextMenus.create({
-    id: 'COPY_GIF'
-  , title: 'Copy GIF'
+    id: COPY_GIF
+  , title: chrome.i18n.getMessage('titleCopyGIF')
   , contexts: ['image']
   })
 })
 
-chrome.contextMenus.onClicked.addListener(function(info, tab) {
-  if (info.menuItemId === 'COPY_GIF') {
+chrome.contextMenus.onClicked.addListener((info, tab) => {
+  if (info.menuItemId === COPY_GIF) {
     setClipboard(info.srcUrl)
   }
 })

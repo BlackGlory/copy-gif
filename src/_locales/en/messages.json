@@ -1,0 +1,11 @@
+{
+  "extensionName": {
+    "message": "Copy GIF (Experimental)"
+  }
+, "extensionDescription": {
+    "message": "The extension adds a menu item so that you can try to copy the GIF image as HTML, and the effectiveness of pasting depends on whether the pasted application supports HTML."
+  }
+, "titleCopyGIF": {
+    "message": "Copy GIF"
+  }
+}
