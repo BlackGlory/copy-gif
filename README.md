@@ -8,7 +8,7 @@ Whether or not pasting works depends on the application being pasted, not all ap
 
 ## Technical details
 
-Windows do not provide APIs for copying GIF images to the clipboard, so Chrome can only copy the bitmap to the clipboard, which means that GIF animations will be copied as a single-frame image.
+Chrome can only copy the bitmap to the clipboard, which means that GIF animations will be copied as a single-frame image.
 
 By looking at the results of GIF image copying from IE, Edge(not Edge based on Chromium), Firefox, I found that they used additional data formats to describe the contents of GIF images. However, this format cannot be implemented via browser-side JavaScript, if one day the Web standard does provide an advanced clipboard API, it may be possible to copy GIF images directly.
 
