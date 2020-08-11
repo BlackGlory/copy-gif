@@ -12,16 +12,14 @@ function setClipboard(imageUrl) {
   document.body.removeChild(container)
 }
 
-chrome.runtime.onInstalled.addListener(details => {
+chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     id: COPY_GIF
-  , title: chrome.i18n.getMessage('titleCopyGIF')
+  , title: chrome.i18n.getMessage('titleCopyGIF') + '(&C)'
   , contexts: ['image']
   })
 })
 
-chrome.contextMenus.onClicked.addListener((info, tab) => {
-  if (info.menuItemId === COPY_GIF) {
-    setClipboard(info.srcUrl)
-  }
+chrome.contextMenus.onClicked.addListener(info => {
+  if (info.menuItemId === COPY_GIF) setClipboard(info.srcUrl)
 })
